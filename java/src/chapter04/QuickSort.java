@@ -27,7 +27,7 @@ public class QuickSort {
     private static int partition(int[] arr, int left, int right) {
         int pivot = arr[left];
         while (left != right) {
-            while (arr[right] > pivot && left < right)
+            while (arr[right] >= pivot && left < right)
                 right--;
             arr[left] = arr[right];
             while (arr[left] < pivot && left < right)
