@@ -52,9 +52,7 @@ public class BreadthFirstSearch {
                     return;
                 }
 
-                for (String sub : graph.get(person)) {
-                    queue.add(sub);
-                }
+                queue.addAll(graph.get(person));
                 searched.add(person);
             }
         }

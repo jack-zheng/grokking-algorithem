@@ -87,3 +87,23 @@ D&C - divide and conquer
 
 例题：
 ![BFS](images/BFS_Sample.png)
+
+## Chapter 07: 狄克斯特拉算法 - Dijkstra's algorithm
+
+该算法用于计算加权图 - weighted graph, 只能用于计算**无向图**，且途中不能包含**负权边**，负加权使用贝尔曼-福德算法
+
+Steps:
+
+1. 找出最便宜的节点
+1. 更新该节点的邻居的开销
+1. 重复这个过程，直到对图中的每个节点都这样做了
+1. 计算最终路径
+
+例1：
+
+![Dijkstra01](images/Dijkstra01.png)
+![Dijkstra01](images/Dijkstra02.png)
+
+例2：
+
+![Dijkstra01](images/Dijkstra03.png)
