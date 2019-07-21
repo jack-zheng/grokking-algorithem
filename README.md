@@ -107,3 +107,5 @@ Steps:
 例2：
 
 ![Dijkstra01](images/Dijkstra03.png)
+
+PS：Java 的实现代码真心长的可以，暂时跳过了，参考 [Dijkstra in Java](https://www.vogella.com/tutorials/JavaAlgorithmsDijkstra/article.html) 和书里面的是一脉相承的
